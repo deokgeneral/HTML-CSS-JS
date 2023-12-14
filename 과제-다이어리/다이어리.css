@@ -1,0 +1,47 @@
+*{
+    text-align: center;
+    margin: 5px;
+    background-color: blanchedalmond;
+}
+div{
+    margin-left: 50px;
+    margin-right : 50px;
+}
+h1{
+    border: 4px double;
+}
+h2{
+    text-align: right;
+}
+#select{
+    border: 4px double;
+    text-align: right;
+}
+#feel{
+    text-align: right;
+}
+#main{
+    border: 4px double;
+}
+#main2{
+    border: 4px double;
+    text-align: center;
+    
+}
+a{
+    font-size: 20px;
+    background-color: aqua;
+}
+mark{
+    font-size: 20px;
+    background-color: aquamarine;
+}
+#imo{
+    font-size: 30px;
+}
+#imo2{
+    font-size: 25px;   
+}
+#imo3{
+    font-size: 30px;
+}

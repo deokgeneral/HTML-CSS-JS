@@ -1,0 +1,75 @@
+
+#number{
+    width: 60px;
+    height: 35px;
+}
+#number2{
+    width: 80px;
+    height: 35px;
+    margin-left: 16px;
+}
+#from{
+    margin-top: 60px;
+}
+#email{
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+}
+#name{
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+}
+#password{
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+}
+.wrap{
+    text-align: center;
+    border : 1px solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px gray,
+                10px 10px red,
+                15px 15px hotpink,
+                20px 20px rgb(78, 60, 60);
+    width: 350px;
+    height: 670px;
+    background-color: rgb(73, 69, 69);
+    color: black;
+}
+select{
+    color: black;
+    margin: 20px;
+    width: 310px;
+    height: 35px;
+}
+#join{
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    width: 310px;
+    height: 35px;
+}
+#cer{
+    text-align: right;
+    margin-right: 20px;
+}
+#cer2{
+    text-align: right;
+    margin-right: 20px;
+}
+#cer_button1{
+    color: black;
+}
+#cer_button2{
+    width: 90px;
+}
+#phone{
+    text-align: left;
+    padding: 20px;
+}
+#no_dot{
+    list-style-type: none;
+  }

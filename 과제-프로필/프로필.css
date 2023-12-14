@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+}
+
+html{
+    background-color: bisque;
+    font-size: 16px;
+}
+body{
+    width: 640px;
+    margin : auto;
+    /* 
+    너비에서 남는 여백을 동일하게 분배하여
+    가운데 정렬효과를 준다
+    */
+}
+h1{
+    font-size: 30px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+p{
+    font-size: 1.5rem;
+}
+#title{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100px;
+    text-align: center;
+    background-color: wheat;
+}
+#title2{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 170px;
+    text-align: center;
+    background-color: wheat;
+}

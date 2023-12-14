@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입페이지</title>
+    <link href="./회원가입페이지.css" rel="stylesheet">
+</head>
+<body>
+    <ul id="no_dot">
+    <div class="wrap">
+    <form action="oz코딩스쿨.com" method="post" id="from">
+        <li>
+        <h1>OZ초격자 회원가입</h1>
+        <input type="email" id="email" placeholder="이메일을 입력하세요.">
+        <input type="text" id="name" placeholder="이름을 입력하세요.">
+        <input type="text" id="password" placeholder="비밀번호를 입력하세요.">
+        <input type="text" id="password" placeholder="비밀번호를 다시 입력하세요.">
+        </li>
+        <li id="phone">
+        <input type="text" id="number" placeholder="010">
+        <label> -</label>
+        <input type="text" id="number2" placeholder="1234">
+        <label> -</label>
+        <input type="text" id="number2" placeholder="5678">
+        </li>
+        <li id="cer">
+        <p>000000
+        <button id="cer_button1">인증번호 전송</button>
+        </p>
+        </li>
+        <li id="cer2">
+        <p>3:00
+        <button id="cer_button2">인증완료</button>
+        </p>
+        </li>
+        <li>
+        <select id="select">
+            <option value="select">-지역을 선택하시오-</option>
+            <option value="">경기도</option>
+            <option value="">서울특별시</option>
+            <option value="">강원도</option>
+            <option value="">충청남도</option>
+            <option value="">충청북도</option>
+            <option value="">경상북도</option>
+            <option value="">경상남도</option>
+            <option value="">전라북도</option>
+            <option value="">전라남도</option>
+        </select>
+        </li>
+        <li>
+        <input type="radio" id="female" name="gender">
+        <label id="female">여성</label>
+        <input type="radio" id="male" name="gender">
+        <label id="male">남성</label><br>
+        </li>
+        <input type="submit" value="가입하기" id="join">
+    </ul>
+    </form>
+    </div>
+</body>
+</html>

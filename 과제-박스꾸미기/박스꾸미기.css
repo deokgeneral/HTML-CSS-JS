@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(to right, #d04d76,#239054);
+}
+#box{
+    background-color: aliceblue;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    color: skyblue;
+    text-align: center;
+    margin: 200px;
+}

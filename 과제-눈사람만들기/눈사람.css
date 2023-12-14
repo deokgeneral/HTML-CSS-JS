@@ -1,0 +1,85 @@
+*{
+    background-color: aqua;
+    text-align: center;
+}
+.snowman{
+    margin-top: 150px;
+}
+.snow_head, .snow_body, .snow_foot{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.snow_head-face_mouth{
+    background-color: black;
+    border: 1px solid black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 40px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.snow_head-face_eyes{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+.snow_head-face_eyes2{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    margin-left: 30px;
+    margin-top: -1px;
+}
+.snow_body{
+    border-radius: 100px;
+    width: 130px;
+    height: 130px;
+}
+.snow_body_point_arm{
+    border: 1px solid brown;
+    background-color: brown;
+    width: 200px;
+    height: 5px;
+}
+.snow_body_point{
+    background-color: black;
+    border: 1px black;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.snow_foot{ 
+    border-radius: 150px;
+    width: 160px;
+    height: 160px;
+
+}
+.snow_hat1, .snow_hat2{
+    background-color: black;
+    border: 1px solid black;
+    width: 65px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.snow_hat2{
+    height: 15px;
+    width: 100px;
+}
+
