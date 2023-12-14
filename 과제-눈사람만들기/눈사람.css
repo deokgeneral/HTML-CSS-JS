@@ -3,7 +3,7 @@
     text-align: center;
 }
 .snowman{
-    margin-top: 150px;
+    margin-top: 50px;
 }
 .snow_head, .snow_body, .snow_foot{
     background-color: white;
@@ -11,8 +11,13 @@
     border-radius: 100px;
     width: 100px;
     height: 100px;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
+}
+.snow_head, .snow_hat1, .snow_hat2{
+    position: relative;
+    top: 20px;
 }
 .snow_head-face_mouth{
     background-color: black;
@@ -21,18 +26,20 @@
     border-bottom-right-radius: 15px;
     width: 40px;
     height: 15px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
-.snow_head-face_eyes{
+.snow_head-face_eyes1{
     background-color: black;
     border: 1px solid black;
     border-radius: 5px;
     width: 10px;
     height: 10px;
-    margin-top: 30px;
-    margin-left: 28px;
+    position: relative;
+    float: left;
+    top: 25px;
+    left: 25px;
 }
 .snow_head-face_eyes2{
     background-color: black;
@@ -40,19 +47,37 @@
     border-radius: 5px;
     width: 10px;
     height: 10px;
-    margin-left: 30px;
-    margin-top: -1px;
+    position: relative;
+    left: 60px;
+    top: 25px;
 }
 .snow_body{
     border-radius: 100px;
     width: 130px;
     height: 130px;
+    position: relative;
+    z-index: 2;
 }
-.snow_body_point_arm{
+.snow_arm1{
     border: 1px solid brown;
     background-color: brown;
-    width: 200px;
+    width: 150px;
     height: 5px;
+    position: relative;
+    top :40px;
+    transform: rotate(30deg);
+    z-index: 1;
+    display: inline-block;
+}
+.snow_arm2{
+    border: 1px solid brown;
+    background-color: brown;
+    width: 150px;
+    height: 5px;
+    position: relative;
+    top: 40px;
+    transform: rotate(155deg);
+    display: inline-block;
 }
 .snow_body_point{
     background-color: black;
@@ -82,4 +107,7 @@
     height: 15px;
     width: 100px;
 }
-
+#copy{
+    position: relative;
+    left: 100px;
+}
