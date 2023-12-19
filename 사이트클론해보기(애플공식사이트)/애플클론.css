@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-rogo{
+    position: relative;
+    top: 5px
+}
+.nav{
+    border: 1px solid rgb(69, 69, 69);
+    background-color: rgb(69, 69, 69);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 40px;
+    z-index: 99;
+    }
+.nav li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 50px;
+    color: rgb(218, 217, 217);
+    font-size: 12px;
+}
+button{
+    background-color:transparent;
+    border: none;
+}
+.title{
+    text-align: center;
+    font-size: 14px;
+    margin: 15px;
+    margin-top: 55px;
+}
+.main{
+    text-align: center;
+    background-color: rgb(251, 251, 253);
+    height: 475px;
+}
+.main > a{
+    text-decoration-line: none;
+}
+.main > a:hover{
+    text-decoration-line: underline;
+    color:rgb(61,120,199);
+}
+.main-text1{
+    font-size: 45px;
+}
+.main-text2{
+    font-size: 25px;
+}
+.main2{
+    text-align: center;
+    background-color: black;
+    height: 500px;
+    z-index: 1;
+}
+.main2-text{
+    position: relative;
+    top:50px;
+}
+.main2-text1{
+    font-size: 70px;
+    color: white;
+}
+.main2-text2{
+    font-size: 25px;
+    color: white;
+}
+#main2-img{
+    position: relative;
+    top :100px;
+    overflow: hidden;
+    width: 800px;
+}
+.main2-text-href{
+    position: relative;
+    top: 70px;
+    text-decoration-line: none;
+}
+.main2-text-href1, .main2-text-href2{
+    margin: 30px;
+    text-decoration-line: none;
+}
+.main2-text-href1:hover, .main2-text-href2:hover{
+    text-decoration-line: underline;
+    color: rgb(61,120,199);
+    margin-top : 10px;
+}
+.main3-video{
+    position: relative;
+    overflow: hidden;
+    margin: 0px auto;
+}
+#video{
+    width: 100%;
+}
+
+.main3-text{
+    position: relative; top: -80px;
+}
+.main3-text{    
+    margin-top: -140px; text-align: center; font-size: 45px; color: white;
+}
+.main3-text > p:nth-child(2){
+    font-size: 16px;
+}
+.main3-text > p:nth-child(3){
+    font-size: 30px;
+}
+.main3-button1, .main3-button2{
+    background-color: rgb(236, 236, 236);
+    border-radius: 1px solid rgb(230, 229, 229);
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    margin-right: 20px;
+}
+.main3-button1:hover, .main3-button2:hover{
+    background-color: white;
+}
+.main4{
+    width: 100%;
+    height: 1400px;
+    text-align: center;
+}
+.main4-1{position: relative; border: 1px solid white; width: 50%; float: left;}
+.main4-text-1{
+    color: white;
+    position: absolute;
+	top: 20%;
+	left: 50%;
+    transform: translate( -50%, -50% );
+}
+.main4-text-1 > a{
+    color: white;
+    text-decoration-line: none;
+}
+.main4-text-1 > a:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+.main4-2{
+    position: relative;
+    border: 1px solid white;
+    width: 49%;
+    float: left;
+}
+.main4-text-2{
+    color: black;
+    position: absolute;
+	top: 20%;
+	left: 50%;
+    transform: translate( -50%, -50% );
+}
+.main4-text-2 > a{
+    color: rgb(61,120,199);
+    text-decoration-line: none;
+    margin-left: 10px;
+}
+.main4-text-2 > a:hover{
+    color: rgb(61,120,199);
+    text-decoration-line: underline;
+}
+.main4-3{border: 1px solid white;width: 49%; float: left; background-color: rgb(250,250,250);}
+.main4-text-3{
+    position: relative;
+    top : 50px;
+    color: black;
+    transform: translate( -50%, -50% );
+}
+.main4-text-3 > a{
+    color: rgb(61,120,199);
+    text-decoration-line: none;
+}
+.main4-text-3 > a:hover{
+    color: rgb(61,120,199);
+    text-decoration-line: underline;
+}
+.main4-4{ border: 1px solid white;width: 49%;float: left;background-color: rgb(250,250,250);}
+.main4-text-4{
+    position: relative;
+    top : 45px;
+    color: black;
+    transform: translate( -50%, -50% );
+}
+.main4-text-4 > a{  
+    color : rgb(61,120,199);
+    text-decoration-line: none;
+}
+.main4-text-4 > a:hover{  
+    color : rgb(61,120,199);
+    text-decoration-line: underline;
+}
+.main4-5{border: 1px solid white;width: 49%; float: left; background-color: black;}
+.main4-text-5{
+    position: relative;
+    top : 20px;
+    color: white;
+    transform: translate( -50%, -50% );
+}
+.main4-text-5 > a{  
+    color : rgb(61,120,199);
+    text-decoration-line: none;
+}
+.main4-text-5 > a:hover{  
+    color : rgb(61,120,199);
+    text-decoration-line: underline;
+}
+.main4-6{border: 1px solid white;width: 49%; float: left;background-color: rgb(250,250,250);}
+.main4-text-6{
+    position: relative;
+    top : 20px;
+    color: black;
+    transform: translate( -50%, -50% );
+}
+.main4-text-6 > a{  
+    color : rgb(61,120,199);
+    text-decoration-line: none;
+}
+.main4-text-6 > a:hover{  
+    color : rgb(61,120,199);
+    text-decoration-line: underline;
+}
+.foot{
+    background-color: rgb(245 245 247);
+}
+.foot-p{
+    font-size: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.foot-list{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.foot-list1{ width: 20%; float:left;}
+.foot-list2{width: 20%;float: left;}
+.foot-list3{width: 20%;float: left;}
+.foot-list4{width: 20%;float: left;}
+.foot-list5{width: 20%; float: left;}
+
+.foot-list li{
+    list-style-type: none;
+    margin: 5px;
+}
+.foot-list a{
+    color: black;
+    list-style-type: none;
+    text-decoration-line: none;
+    font-size: 12px;
+}
+.foot-list a:hover{
+    text-decoration-line: underline;
+}
+.foot-place{
+    height: 10px;
+}
+.foot-place2{
+    height: 100px;
+}
+.foot > p{
+    font-size: 11px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.foot p > a{
+    color: blue;
+}
+.foot-last-p{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.last{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.last > p{
+    font-size: 12px;
+    color: rgb(87, 87, 87);
+}
+.last ul > li{
+    display: inline;
+    font-size: 11px;
+    border-right: 1px solid black;
+    padding-right: 9px;
+}
+.last ul > li a{
+    color: black;
+    text-decoration-line: none;  
+}
+.last ul li a:hover{
+    text-decoration-line:underline;
+}
+#last-list-a1{
+    text-decoration-line: none;
+    border-right: none;
+}
+
+#last-list-a2, #last-list-a3{
+    text-align: right;
+}
+.last-p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 12px;
+    color: grey;
+}
