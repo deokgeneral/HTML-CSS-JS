@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>타이머</title>
+    <style>
+        #now{
+            font-size: 2.25rem;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <p id="now"></p>
+    <script>
+
+        const button = document.getElementById("stop")
+
+        setInterval(function(){
+        const p = document.getElementById("now")
+
+        const now = new Date()
+        new Date(1992, 11, 12, 12, 39, 45)
+
+        let year = now.getFullYear()
+        let month = now.getMonth()
+        let day = now.getDate()
+        let hour = now.getHours()
+        let min = now.getMinutes()
+        let sec = now.getSeconds()
+
+        p.textContent = `현재시간 : Mon Dec 04 ${year} ${month} ${day} ${hour}:${min}:${sec} GMT+9000(한국 표준시)`
+
+        },1000)
+    </script>
+</body>
+</html>
