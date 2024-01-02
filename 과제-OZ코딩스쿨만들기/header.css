@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@keyframes blink-effect {
+    50% {
+      opacity: 0;
+    }
+  }
+.info a{
+animation: blink-effect 0.3s step-end infinite;
+}
+.header{
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.header-content{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 18px 0 18px;
+}
+.info{
+    height : 250px;
+    width: 100%;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/images/모카선글라스.jpg");
+}
+.header-img-title{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    z-index: 99;
+    color: white;
+}
+.header-content-logo{
+    font-size: 2.75rem;
+}
+.header-content-nav{
+    padding: 15px 0 0 0;
+    align-items: center;
+    list-style-type: none;
+}
+.header-content-nav li:hover{
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 3px;
+}
+.header-content-nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 1.13rem;
+    font-weight: 900;
+}
+.main{
+    margin-top: 100px;
+}
+.main_title p{
+    color: blueviolet;
+}
+.main_title h1{
+    font-size: 3.15rem;
+}
+@media screen and (max-width: 768px) {
+    .header-content-nav{
+        display: none;
+    }
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box_item{
+    margin: 20px;
+    width: 250px;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    display: inline-block;
+}
+.box_item_p{
+    color: white;
+    position: relative;
+    top: 300px;
+}
+.box_item_p_1{
+    color: blue;
+}
+.box_item_p_2{
+    color: green;
+}
+.box_item_p_3{
+    color: yellow;
+}
+.box_item:hover{
+    transform: scale(1.2, 1.2)
+}
+.box_item::before{
+    opacity: 0.5;
+}
