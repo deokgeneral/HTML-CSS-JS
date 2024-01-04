@@ -1,0 +1,31 @@
+button{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+h3{
+    font-size: 2.25rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.numbers{
+    border: solid 1px black;
+    color: white;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.eachnum{
+    margin: 20px;
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 200px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
