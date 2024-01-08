@@ -1,0 +1,20 @@
+#todo-form{
+    position: relative;
+    top:240px; 
+}
+.app{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    height: 400px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+button{
+    margin : 0px 15px;
+}
