@@ -1,0 +1,89 @@
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: plum;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.header-content_title{
+    margin: 10px;
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: white;
+}
+.header-content_title a{
+    font-size: 1.5rem;
+}
+.header-content_menu{
+    display: flex;
+    align-items: center;
+}
+.header-content_menu-ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+    color: white;
+    font-weight: 900;
+}
+.header-content_menu-ul a{
+    color: white;
+    font-size: 1.35rem;
+    font-weight: 900;
+    text-decoration-line: none;
+}
+.header-content_menu-ul li:hover{
+    text-decoration-line: underline;
+    opacity: 0.8;
+}
+.header-content_menu-ul #log_btn{
+    color: white;
+    font-size: 1.35rem;
+    font-weight: 900;
+    border: none;
+    background-color: plum;
+}
+.header-content_menu-ul #log_btn1:hover{
+    text-decoration-line: underline;
+    opacity: 0.8;
+}
+#header-content_hammenu h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+#header-content_hammenu li{
+    list-style-type: none;
+    font-size: 1.35rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 15px;
+}
+#header-content_hammenu li:hover{
+    opacity: 0.5;
+    text-decoration-line: underline;
+    color: white;
+}
+#header-content_hammenu a{
+    text-decoration-line: none;
+    color: white;
+}
+#header-content_hammenu .log_btn2{
+    color: white;
+    font-size: 1.35rem;
+    font-weight: 900;
+    border: none;
+    background-color: plum;
+}
+#header-content_hammenu .log_btn2:hover{
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 710px){
+    .header-content_menu-ul{
+        display: none;
+    }
+}
