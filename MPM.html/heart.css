@@ -1,0 +1,58 @@
+.heart{
+    display: flex;
+    justify-content: center;
+    transform: rotate(45deg);
+    position: relative;
+    left: 31px;
+    opacity: 0.5;
+}
+.heart1{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 100px;
+    position: relative;
+    left: 16px;
+    top: 53px;
+}
+.heart2{
+    width: 33px;
+    height: 33px;
+    background-color: red;
+    position: relative;
+    border-top-left-radius: 20px;
+    top:50px;
+}
+.heart3{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 100px;
+    position: relative;
+    top: 36px;
+    right: 30px;
+}
+.heart-contents{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box:nth-child(1){
+    --size: 1.2;
+    margin: 45px;
+    position: relative;
+    top: 45px;
+}
+.box::before{
+    content: '❤';
+    display: inline-block;
+    color: red;
+    font-size: 20px;
+    line-height: 1;
+    animation: heartbeat 1.5s infinite ease;
+}
+
+@keyframes heartbeat {
+    to {
+        transform: scale(calc(var(--size)*2));
+    }
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Salsa&display=swap" rel="stylesheet">
+    <title>MtipBestCuple</title>
+    <style>
+        *{  margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link href="header.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="heart.css" rel="stylesheet">
+    <link href="/warp.css" rel="stylesheet">
+    <link href="/sub_btn.css" rel="stylesheet">
+    <link href="hambar.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header-content">
+        <div class="header-content_title">❤ M<a>bti</a> P<a>erfect</a> M<a>atch</a></div>
+        <div class="header-content_menu">
+            <ul class="header-content_menu-ul">
+                <li><a href="https://zombiembti.net/test/rollingpaper2/" target="_blank">MBTI 롤링페이퍼</a></li>
+                <li><a href="#">MBTI 궁합표</a></li>
+                <li><button id="log_btn">로그인</button></li>
+            </ul>
+            <div class="header-content_hambar">
+                <input type="checkbox" id="icon">
+                <label for="icon"> 
+            <span></span>
+            <span></span>
+            <span></span>
+                </label>
+                <div id="header-content_hammenu">
+                    <h2>MENU</h2>
+                    <ul>
+                        <li><a href="https://zombiembti.net/test/rollingpaper2/">MBTI 롤링페이퍼</a></li>
+                        <li><a href="#">MBTI 궁합표</a></li>
+                        <li><button id="log_btn">로그인</button></li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <main class="main">     
+            <h3>❤ <span>사랑하는 사람과의</span> <a>궁합을 확인해보세요</a> ❤</h3>
+            <div class="main-title">MBTI 궁합</div>
+            <from action="#" method="post">
+
+                    <div class="select-content">
+                        <div class="select_box">
+                        <div class="select_title">Me</div>
+                        <select class="log" name="my_mbti">
+                        <option selected disabled value=>선택</option>
+                        <option value="1">ISTJ</option>
+                        <option value="2">ISTP</option>
+                        <option value="3">INFJ</option>
+                        <option value="4">INTJ</option>
+                        <option value="5">ISFJ</option>
+                        <option value="6">ISFP</option>
+                        <option value="7">INFP</option>
+                        <option value="8">INTP</option>
+                        <option value="9">ESTJ</option>
+                        <option value="10">ESFP</option>
+                        <option value="11">ENFP</option>
+                        <option value="12">ENTP</option>
+                        <option value="13">ESFJ</option>
+                        <option value="14">ESTP</option>
+                        <option value="15">ENFJ</option>
+                        <option value="16">ENTJ</option>
+                        </select>
+                        </div>
+                        <div class="heart_box">
+                            <div class="box"></div>
+                        </div>
+                        <div class="select_box">
+                            <div class="select_title">Someone</div>
+                            <select class="log" name="opponent_mbti">
+                            <option selected disabled value>선택</option>
+                            <option value="1">ISTJ</option>
+                            <option value="2">ISTP</option>
+                            <option value="3">INFJ</option>
+                            <option value="4">INTJ</option>
+                            <option value="5">ISFJ</option>
+                            <option value="6">ISFP</option>
+                            <option value="7">INFP</option>
+                            <option value="8">INTP</option>
+                            <option value="9">ESTJ</option>
+                            <option value="10">ESFP</option>
+                            <option value="11">ENFP</option>
+                            <option value="12">ENTP</option>
+                            <option value="13">ESFJ</option>
+                            <option value="14">ESTP</option>
+                            <option value="15">ENFJ</option>
+                            <option value="16">ENTJ</option>
+                            </select>
+                        </div> 
+                    </div>
+            </from>
+            <img src="/mpm_img/shaow.png" class="shaow_img">
+        </main>
+            <div class="subbtn-content"> 
+                <a><button id="result_btn" class="sub_btn">결과확인하기</button></a>
+                <a href="https://www.16personalities.com/ko" target="_blank"><button id="inspect_btn" class="sub_btn">나의 MBTI는?</button ></a>
+                <a href="#"><button  id="matching_btn" class="sub_btn">&#128796; 매칭하기  &#128800;</button></a>
+                <div class="sharebtn_content">
+                    <h3>공유하기</h3>
+                    <button type="button" id="shareTw" class="share_btn"><img src="/mpm_img/icon-twitter.png"></button>
+                    <button type="button" id="shareFb" class="share_btn"><img src="/mpm_img/icon-facebook.png"></button>
+                    <button type="button" id="shareKt" class="share_btn"><img src="/mpm_img/icon-kakao.png"></button>
+                </div>
+            </div>
+    </div>
+
+        <div id="wrap-content">
+            <div class="wrap">
+                <form action="#" method="post" id="from">
+                    <li id="from-join">
+                <h1>MPM 로그인 <div id="close_btn">x</div></h1>
+                <input type="email" id="id" placeholder="아이디를 입력하세요.">
+                <input type="text" id="password" placeholder="비밀번호를 입력하세요.">
+                <input type="submit" value="로그인" id="log-in">
+                <input type="submit" value="회원가입" id="join-in">
+                    </li>
+                </form>
+            </div>
+        </div>
+    <script src="/index.js"></script>
+</body>
+</html>
